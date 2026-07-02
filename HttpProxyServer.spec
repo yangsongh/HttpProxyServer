@@ -18,7 +18,7 @@ pyz = PYZ(a.pure)
 
 exe = EXE(
     pyz,                        # 上面打包好的Python代码归档
-    a.scripts,                  # 主入口脚本 http_server.py
+    a.scripts,                  # 主入口脚本
     a.binaries,                 # 依赖的二进制库（系统dll、第三方库二进制）
     a.datas,                    # 静态资源文件
     [],                         # 额外脚本列表，这里空
